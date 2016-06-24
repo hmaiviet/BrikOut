@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		A60155721D125ECD00FAB042 /* rsz_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = A60155711D125ECD00FAB042 /* rsz_ball.png */; };
 		A60155741D129CBD00FAB042 /* brick.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A60155731D129CBD00FAB042 /* brick.jpg */; };
+		A6700B371D1BE5A400AB94CC /* 35-lost-woods.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6700B361D1BE5A400AB94CC /* 35-lost-woods.mp3 */; };
 		A671EECC1D13A56E0088BF02 /* brick-yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = A671EECB1D13A56E0088BF02 /* brick-yellow.png */; };
 		A671EECE1D13A5740088BF02 /* brick-red.png in Resources */ = {isa = PBXBuildFile; fileRef = A671EECD1D13A5740088BF02 /* brick-red.png */; };
 		A671EED01D13A5790088BF02 /* brick-green.png in Resources */ = {isa = PBXBuildFile; fileRef = A671EECF1D13A5790088BF02 /* brick-green.png */; };
 		A671EED21D13A57C0088BF02 /* brick-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = A671EED11D13A57C0088BF02 /* brick-blue.png */; };
+		A684E28E1D154666007E09D2 /* crash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A684E28D1D154666007E09D2 /* crash.mp3 */; };
+		A684E2901D15466C007E09D2 /* dink.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A684E28F1D15466C007E09D2 /* dink.mp3 */; };
+		A684E2921D154A92007E09D2 /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = A684E2911D154A92007E09D2 /* gameover.png */; };
+		A68E25211D1924760018B481 /* ballx2.png in Resources */ = {isa = PBXBuildFile; fileRef = A68E25201D1924760018B481 /* ballx2.png */; };
 		A6E2DA171D12474A00A8AA69 /* Paddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E2DA161D12474A00A8AA69 /* Paddle.swift */; };
 		A6E2DA191D1248D800A8AA69 /* banana-08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6E2DA181D1248D800A8AA69 /* banana-08.jpg */; };
 		A6E2DA231D124DB700A8AA69 /* rsz_brick.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6E2DA221D124DB700A8AA69 /* rsz_brick.jpg */; };
@@ -29,10 +34,15 @@
 /* Begin PBXFileReference section */
 		A60155711D125ECD00FAB042 /* rsz_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rsz_ball.png; sourceTree = "<group>"; };
 		A60155731D129CBD00FAB042 /* brick.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brick.jpg; sourceTree = "<group>"; };
+		A6700B361D1BE5A400AB94CC /* 35-lost-woods.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "35-lost-woods.mp3"; sourceTree = "<group>"; };
 		A671EECB1D13A56E0088BF02 /* brick-yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brick-yellow.png"; sourceTree = "<group>"; };
 		A671EECD1D13A5740088BF02 /* brick-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brick-red.png"; sourceTree = "<group>"; };
 		A671EECF1D13A5790088BF02 /* brick-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brick-green.png"; sourceTree = "<group>"; };
 		A671EED11D13A57C0088BF02 /* brick-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brick-blue.png"; sourceTree = "<group>"; };
+		A684E28D1D154666007E09D2 /* crash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crash.mp3; sourceTree = "<group>"; };
+		A684E28F1D15466C007E09D2 /* dink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dink.mp3; sourceTree = "<group>"; };
+		A684E2911D154A92007E09D2 /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.png; sourceTree = "<group>"; };
+		A68E25201D1924760018B481 /* ballx2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballx2.png; sourceTree = "<group>"; };
 		A6E2DA161D12474A00A8AA69 /* Paddle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paddle.swift; sourceTree = "<group>"; };
 		A6E2DA181D1248D800A8AA69 /* banana-08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "banana-08.jpg"; sourceTree = "<group>"; };
 		A6E2DA221D124DB700A8AA69 /* rsz_brick.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rsz_brick.jpg; sourceTree = "<group>"; };
@@ -95,6 +105,8 @@
 		A6F8BE701D0184CD0097D3AB /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				A684E28D1D154666007E09D2 /* crash.mp3 */,
+				A684E28F1D15466C007E09D2 /* dink.mp3 */,
 				A6F8BE761D0190EC0097D3AB /* ball.png */,
 				A6E2DA181D1248D800A8AA69 /* banana-08.jpg */,
 				A6E2DA221D124DB700A8AA69 /* rsz_brick.jpg */,
@@ -104,6 +116,9 @@
 				A671EECD1D13A5740088BF02 /* brick-red.png */,
 				A671EECF1D13A5790088BF02 /* brick-green.png */,
 				A671EED11D13A57C0088BF02 /* brick-blue.png */,
+				A684E2911D154A92007E09D2 /* gameover.png */,
+				A68E25201D1924760018B481 /* ballx2.png */,
+				A6700B361D1BE5A400AB94CC /* 35-lost-woods.mp3 */,
 			);
 			name = resources;
 			sourceTree = "<group>";
@@ -166,8 +181,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6700B371D1BE5A400AB94CC /* 35-lost-woods.mp3 in Resources */,
+				A684E2901D15466C007E09D2 /* dink.mp3 in Resources */,
 				A671EED01D13A5790088BF02 /* brick-green.png in Resources */,
 				A671EECC1D13A56E0088BF02 /* brick-yellow.png in Resources */,
+				A68E25211D1924760018B481 /* ballx2.png in Resources */,
 				A60155721D125ECD00FAB042 /* rsz_ball.png in Resources */,
 				A6E2DA191D1248D800A8AA69 /* banana-08.jpg in Resources */,
 				A6F8BE691D0184B80097D3AB /* LaunchScreen.storyboard in Resources */,
@@ -176,7 +194,9 @@
 				A6F8BE661D0184B80097D3AB /* Assets.xcassets in Resources */,
 				A6E2DA231D124DB700A8AA69 /* rsz_brick.jpg in Resources */,
 				A671EED21D13A57C0088BF02 /* brick-blue.png in Resources */,
+				A684E2921D154A92007E09D2 /* gameover.png in Resources */,
 				A6F8BE771D0190EC0097D3AB /* ball.png in Resources */,
+				A684E28E1D154666007E09D2 /* crash.mp3 in Resources */,
 				A6F8BE641D0184B80097D3AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

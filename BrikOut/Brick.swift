@@ -9,6 +9,7 @@
 import UIKit
 
 class Brick: UIImageView {
+    var special = 0
     var BrickState = 0{
         didSet{
             switch(BrickState){
@@ -27,6 +28,7 @@ class Brick: UIImageView {
     }
     override init(frame: CGRect){
         BrickState = 0
+        special = 0
         super.init(frame: frame)
     }
 

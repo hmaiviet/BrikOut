@@ -11,13 +11,19 @@ import UIKit
 class Ball: UIImageView {
     
     var ballRadius = CGFloat()
- 
+    var ballDir = String()
+    
+    init()
+    {
+        ballDir = "upleft"
+        super.init(frame: CGRectZero)
+    }
+    
     override init(image: UIImage?){
         super.init(image: image)
     }
     
     override init(frame: CGRect) {
-        self.ballRadius = 8
         super.init(frame: frame)
     }
     
